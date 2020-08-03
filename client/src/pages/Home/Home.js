@@ -79,7 +79,7 @@ function Home() {
               id="registerbtn"
               type="submit"
               className="btn btn-primary"
-              onClick={() => history.push("businessform")}
+              onClick={() => history.push("businessForm")}
             >
               REGISTER
             </button>
