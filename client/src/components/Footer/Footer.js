@@ -21,7 +21,7 @@ function Footer() {
             &copy; {new Date().getFullYear()}
             &nbsp;COPYRIGHT{" "}
           </span>
-          <span id="contact-link" onClick={history.push("/contact")}>
+          <span id="contact-link" onClick={() => history.push("/contact")}>
             CONTACT{" "}
           </span>
         </div>
